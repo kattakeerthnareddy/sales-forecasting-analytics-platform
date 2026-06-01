@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Regenerable artifacts (recreate with the scripts below)
+data/sales_data.csv
+models/*.joblib
+models/*.json
+reports/metrics.json
+
+# Keep the committed figures so the README renders on GitHub:
+!reports/figures/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
